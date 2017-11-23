@@ -1,0 +1,20 @@
+
+<nav class="c-skip-nav{{#if settings.skipNavClasses}} {{settings.skipNavClasses}}{{/if}}" role="navigation">
+
+	{{#with content}}
+		<h6 class="skip-nav__headline">{{title}}</h6>
+
+		{{#if main}}
+			<a href="#main" class="skip-nav__tomain">{{main}}</a>
+		{{/if}}
+
+		<ul class="skip-nav__list">
+			{{#each skipLink}}
+				<li class="skip-nav__list-item">
+					<a href="{{href}}" class="skip-nav__link" data-js-atom="skipnav">{{text}}</a>
+				</li>
+			{{/each}}
+		</ul>
+	{{/with}}
+
+</nav>

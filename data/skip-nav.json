@@ -1,0 +1,39 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default"
+			},
+			"settings": {
+				"skipNavClasses": false,
+				"skipNavJsOptions": {}
+			},
+			"content": {
+				"title": "SkipNav Title",
+				"main": "Skip to main content",
+				"skipLink": [
+					{
+						"href": "#one",
+						"text": "link One"
+					},
+					{
+						"href": "#two",
+						"text": "link Two"
+					},
+					{
+						"href": "#three",
+						"text": "link Three"
+					},
+					{
+						"href": "#four",
+						"text": "link Four"
+					},
+					{
+						"href": "#five",
+						"text": "link Five"
+					}
+				]
+			}
+		}
+	}
+}

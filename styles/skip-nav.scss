@@ -1,0 +1,50 @@
+/* ===================================================
+: skip-nav
+=================================================== */
+
+.c-skip-nav {
+	position: relative;
+
+	.skip-nav__headline,
+	.skip-nav__text {
+		color: transparent;
+		font: 0/0 a;
+		text-shadow: none;
+	}
+
+	.skip-nav__headline,
+	.skip-nav__text,
+	.skip-nav__link,
+	.skip-nav__tomain{
+		width: 1px;
+		height: 1px;
+		left: -9999px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+	.skip-nav__headline {}
+
+	.skip-nav__list {
+		list-style: none;
+	}
+
+	.skip-nav__list-item {}
+
+	.skip-nav__link,
+	.skip-nav__tomain {
+		&:active,
+		&:focus,
+		&:hover,
+		&.a11y-focus-key{
+			left: 0;
+			top: 0;
+			width: auto;
+			height: auto;
+			overflow: visible;
+			background: white;
+			padding: 10px;
+			color: #000;
+		}
+	}
+}
