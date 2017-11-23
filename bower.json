@@ -1,0 +1,19 @@
+{
+  "name": "veams-component-skip-nav",
+  "version": "1.0.0",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Estelle Chevallier",
+      "email": "estelle.chevallier@aperto.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-skip-nav.git"
+  }
+}
