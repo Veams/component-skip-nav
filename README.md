@@ -23,8 +23,7 @@ The skip-nav component should be included at the beginning of the page and conta
 
 When published on bower you can install the  by executing:
 
-1. `veams install veams- skip-nav`
-2. `bower install veams--skip-nav --save`
+1. `veams install veams-component skip-nav`
 
 -----------
 
