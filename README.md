@@ -1,15 +1,17 @@
-# skipNav (``)
+# skip-nav
 
 ## Description
 
-This blueprint is based on the blueprint of Veams.
+Various content areas such as navigation, search, or page content can be skipped by users of assistive technologies.
+
+The skip-nav component should be included at the beginning of the page and contains the first focusable elements of the tab order.
 
 > Just place a generic quote for your type.
 
 -----------
 
 ## Requirements
-- `Veams#5.0.0` - Replace this requirement with the libs you need for this type.
+- `Veams#5.0.0` 
 
 -----------
 
@@ -36,5 +38,10 @@ When published on bower you can install the  by executing:
 - settings.skipNavClasses {`String`} - _Modifier classes for ._ 
 
 #### Content
-- content.skipNavField {`String`} - _Please add a description!_
+- content.title {`String`} - _Title, for semantics_
+- content.main {`String`} - _only displayed if there is a main content block to skip to_
+- content.skipLink {`Object[]`} - _Object container every link_
+
+- content.skipLink.href {`String`} - _href value of a link_
+- content.skipLink.text {`String`} - _text of a link_
 
