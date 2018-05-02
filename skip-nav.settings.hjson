@@ -1,0 +1,9 @@
+{
+	"type": "component",
+	"contextData": "skip-nav",
+	"layout": "lyt-docs",
+	"publish": true,
+	"scssFiles": [
+		"_skip-nav.scss"
+	]
+}

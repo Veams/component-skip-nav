@@ -1,9 +1,0 @@
-{
-    "paths": {
-        "styles": "src/shared/components/skip-nav/styles/skip-nav"
-    },
-    "type": "component",
-    "contextData": "skip-nav",
-    "layout": "lyt-docs",
-    "publish": true
-}

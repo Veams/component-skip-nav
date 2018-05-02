@@ -1,10 +1,10 @@
 {
-  "name": "veams-component-skip-nav",
+  "name": "@veams/component-skip-nav",
   "version": "1.0.0",
   "description": "The component represents a simple skip navigation.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Veams/veams-component-skip-nav.git"
+    "url": "git://github.com/Veams/component-skip-nav.git"
   },
   "keywords": [
     "veams"
@@ -12,7 +12,7 @@
   "author": "Estelle Chevallier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Veams/veams-component-skip-nav/issues"
+    "url": "https://github.com/Veams/component-skip-nav/issues"
   },
-  "homepage": "https://github.com/Veams/veams-component-skip-nav#readme"
+  "homepage": "https://github.com/Veams/component-skip-nav#readme"
 }
